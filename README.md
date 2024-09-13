@@ -95,6 +95,7 @@ This should be the class header line! Change it by adding _**extends Cycle**_
 String.public Unicycle(String newMake) {
     super(newMake); //the call to super invokes the matching constructor in the superclass.
 }
+```
 3. When a non-abstract class (Unicycle) extends an abstract class (Cycle) then it must implement ALL abstract methods from the parent class. Eclipse can actually do it for you automatically by accepting the auto-suggested correction! Hover over the **Unicycle** error it should explain the compile error. _The type Unicycle must implement the inherited abstract method getColor()
 Select the first suggested fix: add unimplemented methods.
 You may also implement these manually!
