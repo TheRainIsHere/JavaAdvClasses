@@ -87,7 +87,7 @@ Scan the Cycle class and complete the class as you would any Java class.
 <details open>
      <summary>Unicycle</summary>
 
-1. A Unicycle is-a Cycle</span><span>!
+1. A Unicycle is-a Cycle!
 Add the required code to define this relationship between **Cycle** and **Unicycle**!
 This should be the class header line! Change it by adding _**extends Cycle**_
 2. Once you have **Unicycle** extending **Cycle**, you need a constructor that takes in a
@@ -112,7 +112,8 @@ private Color color; //a Unicycle has-a color
 <details open>
     <summary>Bicycle/ElectricMountainBike</summary>
 
-- Alter these two classes so that they extend the correct class. See the diagram in the Assignment Overview as a reminder. <br />After adding the relationship(s), you should be able to say that a Bicycle is-a Cycle and an ElectricMountainBike is-a Bicycle out loud. This portion demonstrates multi-level inheritance (NOT to be confused with multiple inheritance - not supported in Java).
+- Alter these two classes so that they extend the correct class. See the diagram in the Assignment Overview as a reminder.
+After adding the relationship(s), you should be able to say that a Bicycle is-a Cycle and an ElectricMountainBike is-a Bicycle out loud. This portion demonstrates multi-level inheritance (NOT to be confused with multiple inheritance - not supported in Java).
 - Focus on `Bicycle`
 1. Add the required methods which are all the abstract methods from the Cycle class. This is similar to what was required of you in Unicycle.
 2. Add any required attributes/fields in this class if it needs to keep track of something specific to a Bicycle
@@ -127,14 +128,14 @@ Why is there such little code here? You are making use of inheritance to inherit
 <details open>
     <summary>Gearable/Movable</summary>
 
-1. Look at the Gearable.java and Movable.java files. What do you notice? Read up on interfaces from the book or as a quick reference <a href="https://www.w3schools.com/java/java_interface.asp" target="_blank" rel="noopener">at W3 Schools</a>.
+1. Look at the Gearable.java and Movable.java files. What do you notice? Read up on interfaces from the book or as a quick reference [at W3 Schools](https://www.w3schools.com/java/java_interface.asp).
 2. Revisit the diagram from the Assignment Overview. You will notice that `ElectricMountainBike` is `Gearable, Movable`, and `Electric`
     - In Java, classes can _implement_ interfaces. Alter the class header of `ElectricMountainBike` so that it implements the interfaces. A Java class can implement more than one interface by listing them comma-separated in the class header. Ex:
 ```public class Tesla extends Car implements Drivable, Electric { ...```
 3. Add the methods from the Interfaces into the `ElectricMountainBike` class similar to how you added the abstract classes from the `Cycle` class for the subclasses.
 
 
-It was mentioned earlier that multiple inheritance is not possible in Java. However, the mechanism is pretty much achieved through the use of interfaces. Read up <a class="inline_disabled" title="Link" href="https://www.geeksforgeeks.org/why-java-doesnt-support-multiple-inheritance/" target="_blank" rel="noopener">on Geeks for Geeks</a> on why multiple inheritance isn't implemented in Java and must be solved via interfaces.
+It was mentioned earlier that multiple inheritance is not possible in Java. However, the mechanism is pretty much achieved through the use of interfaces. Read up [on Geeks for Geeks](https://www.geeksforgeeks.org/why-java-doesnt-support-multiple-inheritance) on why multiple inheritance isn't implemented in Java and must be solved via interfaces.
 
 </details>
 
