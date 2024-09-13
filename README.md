@@ -64,9 +64,7 @@ Similar to previous assignments, you will use the tester class to guide you in c
 
 ___________
 
-<p></p>
-<div>
-         <h2>Programming Task(s)</h2>
+## Programming Task(s)
 
         <details>
             <summary>Cycle</summary>
@@ -104,7 +102,7 @@ ___________
             </ol>
             <p>It was mentioned earlier that multiple inheritance is not possible in Java. However, the mechanism is pretty much achieved through the use of interfaces. Read up <a class="inline_disabled" title="Link" href="https://www.geeksforgeeks.org/why-java-doesnt-support-multiple-inheritance/" target="_blank" rel="noopener">on Geeks for Geeks</a>on why multiple inheritance isn't implemented in Java and must be solved via interfaces.</p>
         </details>
-</div>
+
 ___________
 ## Complete and zip the project
 1. Run and add the code to the src folder until the tests are successful.
