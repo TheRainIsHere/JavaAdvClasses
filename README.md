@@ -43,6 +43,7 @@ ________
 
 ## _(Complete the Assignment)_
 ![class diagram](JavaAdvClasses_diagram.png)
+
 In this challenge you are going to write code to relating to a bike shop. 
 
 This programming assignment is tested using JUnit testing so the Tester class will help guide you in finding the relationships between the classes along with this programming assignment spec. 
@@ -60,8 +61,7 @@ ___________
 
 <div>
          <h2>Programming Task(s)</h2>
-        <p>Are you new to inheritance and want an example? Feel free to watch the video below that covers Inheritance, <strong>Abstract</strong> Classes, <strong>Interfaces</strong>, <strong>static</strong> variables as well as tips and tricks in Eclipse.</p>
-        <p><iframe title="embedded content" src="https://drive.google.com/file/d/1j0A4bNC6Dxwc7hoZdG3IVA5YBJ3Sn99A/preview" width="640" height="480" allow="autoplay"></iframe></p>
+
         <details>
             <summary>Cycle</summary>
             <p><span>A </span><span>Cycle</span><span> is an abstract super-class that represents a </span><span>Cycle</span><span> object containing a frame number attribute with numerous instance methods.</span></p>
