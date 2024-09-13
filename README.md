@@ -108,6 +108,7 @@ private Color color; //a Unicycle has-a color
 8. Complete the setter for the `color` attribute.
 
 </details>
+
 <details open>
     <summary>Bicycle/ElectricMountainBike</summary>
 
@@ -122,6 +123,7 @@ If you have done everything correctly, the ElectricMountainBike class should be 
 Why is there such little code here? You are making use of inheritance to inherit public methods from super-classes. All public or protected methods and instance variables are directly inherited by sub-classes.
 
 </details>
+
 <details open>
     <summary>Gearable/Movable</summary>
 
