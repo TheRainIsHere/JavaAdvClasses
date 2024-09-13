@@ -64,6 +64,7 @@ Similar to previous assignments, you will use the tester class to guide you in c
 
 ___________
 
+<p></p>
 <div>
          <h2>Programming Task(s)</h2>
 
