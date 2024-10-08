@@ -128,7 +128,7 @@ class TestAdvancedClasses
 //		assertTrue(bike1.toString().contains("java.awt.Color[r=0,g=0,b=255]"));
 //		assertTrue(bike2.toString().contains("java.awt.Color[r=255,g=0,b=0]"));
 //	}
-	
+//	
 //  @Order(4)	
 //	@Test
 //	void testEquals()
@@ -158,7 +158,7 @@ class TestAdvancedClasses
 //		assertFalse(bike1.equals("Not a bike"));
 //		assertFalse(bike1.equals(null));
 //	}
-
+//
 //  @Order(5)
 //	@Test
 //	void testGearable()
@@ -174,7 +174,7 @@ class TestAdvancedClasses
 //		vehicle2.gearDown();
 //		assertEquals(1, vehicle2.getGear());
 //	}
-
+//
 //  @Order(6)
 //	@Test
 //	void testElectric()
@@ -185,7 +185,7 @@ class TestAdvancedClasses
 //		assertEquals(100, vehicle3.getCharge());
 //		assertEquals("E3", ((Cycle) vehicle3).getMake());
 //	}
-
+//
 //  @Order(7)
 //	@Test
 //	void testMovable()
@@ -201,7 +201,7 @@ class TestAdvancedClasses
 //		vehicle2.speedUp();
 //		assertEquals(2, vehicle2.getSpeed());
 //	}
-	
+//	
 //  @Order(8)	
 //	@Test
 //	void testDynamicBinding()
