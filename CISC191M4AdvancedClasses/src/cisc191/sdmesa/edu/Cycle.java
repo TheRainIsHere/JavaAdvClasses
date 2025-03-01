@@ -4,45 +4,32 @@ import java.awt.Color;
 
 /**
  * Lead Author(s):
- * @author 
- * @author 
- * <<add additional lead authors here, with a full first and last name>>
- * 
- * Other contributors:
- * <<add additional contributors (mentors, tutors, friends) here, with contact information>>
+ * @author Jade Dunne
  * 
  * References:
  * Morelli, R., & Walde, R. (2016). Java, Java, Java: Object-Oriented Problem Solving.
  * Retrieved from https://open.umn.edu/opentextbooks/textbooks/java-java-java-object-oriented-problem-solving
  * 
- * <<add more references here>>
  *  
- * Version/date: 
+ * Version/date: @version 03.01.25
  * 
  * Responsibilities of class:
- * 
+ * To provide a basic cycle class for multiple types of cycles to inherit from
  */
-/**
- * Only change sections that are marked with TODO
- */
-
-//TODO: Implement and comment all IS-A (inheritance) relationships
 
 public abstract class Cycle
-{
-	// TODO: Implement and comment HAS-A relationships separately
-	
-	// A cycle has a unique frame number, that is *immutable*;
-	// How are you going to make it immutable, so that it only gets one final number? 
-	// (Hint: did you see the hint?)
-	private int frameNumber;
-	
-	// A cycle has a make, that is immutable
-	// TODO:
+{	
+	String make;
+	int wheelCount;
+	Color cycleColor;
+	private static int totalCycles = 0;
+	private final int frameNumber;
 	
 	public Cycle(String newMake)
 	{
-		// TODO
+		make = newMake;
+		totalCycles++;
+		frameNumber = totalCycles;
 	}
 
 	abstract int getNumberOfWheels();
@@ -66,8 +53,7 @@ public abstract class Cycle
 	 */
 	public String getMake()
 	{
-		// TODO
-		return null;
+		return make;
 	}
 	
 	/**
@@ -77,30 +63,16 @@ public abstract class Cycle
 	 */
 	public int getFrameNumber()
 	{
-		// TODO
-		return -1;
+		return frameNumber;
 	}
-	
-	/**
-	 *  @return true if the frame number are the same
-	 */
-//	@Override
-//	public boolean equals(Object other)
-//	{
-//		// TODO: 
-//		// Hint: use instanceof
-//		// See: https://www.sitepoint.com/implement-javas-equals-method-correctly/
-//		return false;
-//	}
 	
 	/**
 	 * @return String describing the object, including type, make and frame number
 	 */
-//	@Override
-//	public String toString()
-//	{
-//		//TODO:
-//		return "Hello, I'm a Cycle";
-//	}
+	@Override
+	public String toString()
+	{
+		return make + cycleColor + frameNumber;
+	}
 
 }
